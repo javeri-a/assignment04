@@ -3,12 +3,12 @@ AFFIRMATION : str = "I am capable of doing anything I put my mind to."
 def main():
     print("Please type the following affirmation: " + AFFIRMATION)
 
-    user_feedback = input()  # Get user's input
-    while user_feedback != AFFIRMATION:  # While the user's input isn't the affirmation
-        # Tell the user that they did not type the affirmation correctly
+    user_feedback = input() 
+    while user_feedback != AFFIRMATION: 
+      
         print("That was not the affirmation.")
 
-        # Ask the user to type the affirmation again!
+      
         print("Please type the following affirmation: " + AFFIRMATION)
         user_feedback = input()
 

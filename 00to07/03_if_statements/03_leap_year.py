@@ -1,19 +1,18 @@
 def main():
-    # Get the year to check from the user
+   
     year = int(input('Please input a year: '))
 
-    if year % 4 == 0:  # Checking whether the provided year is evenly divisible by 4
-        if year % 100 == 0:  # Checking whether the provided year is evenly divisible by 100
-            if year % 400 == 0:  # Checking whether the provided year is evenly divisible by 400
+    if year % 4 == 0: 
+        if year % 100 == 0:  
+            if year % 400 == 0: 
                 print("That's a leap year!")
-            else:  # (Not divisible by 400)
+            else: 
                 print("That's not a leap year.")
-        else:  # (Not divisible by 100)
+        else:
             print("That's a leap year!")
-    else:  # (Not divisible by 4)
+    else: 
         print("That's not a leap year.")
 
 
-# This line ensures that the main function is called when the script is run
 if __name__ == '__main__':
     main()

@@ -1,15 +1,3 @@
-# # 
-# Write a function that takes a list of numbers and returns the sum of those numbers.
-
-# Starter Code
-# def main():
-#     print("Delete this line and write your code here! :)")
-
-
-# # This provided line is required at the end of
-# # Python file to call the main() function.
-# if __name__ == '__main__':
-#     main()
 
 
 def sum_of_list(numbers):

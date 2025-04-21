@@ -2,7 +2,7 @@ def print_multiple(message: str, repeats: int):
     for i in range(repeats):
         print(message)
 
-# There is no need to edit code beyond this point
+
 def main():
     message = input("Please type a message: ")
     repeats = int(input("Enter a number of times to repeat your message: "))

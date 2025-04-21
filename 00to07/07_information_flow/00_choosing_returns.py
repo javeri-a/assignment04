@@ -1,4 +1,4 @@
-ADULT_AGE = 18  # U.S. legal age for adulthood
+ADULT_AGE = 18  
 
 def is_adult(age: int):
     if age >= ADULT_AGE:

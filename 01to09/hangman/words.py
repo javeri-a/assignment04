@@ -1,0 +1,1 @@
+words = ["python", "hangman", "challenge", "programming", "developer"]

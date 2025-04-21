@@ -1,10 +1,10 @@
 def main():
-    num: int = int(input("Enter a number: "))  # Taking input from the user
-    num = subtract_seven(num)  # Subtract 7 from the number
+    num: int = int(input("Enter a number: ")) 
+    num = subtract_seven(num) 
     print("This is the result after subtracting 7: ", num)
 
 def subtract_seven(num):
-    num = num - 7  # Subtract 7 from the input number
+    num = num - 7 
     return num
 
 if __name__ == '__main__':

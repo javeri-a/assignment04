@@ -1,15 +1,15 @@
 import random
 
-DONE_LIKELIHOOD = 0.3  # You can adjust this for more or less randomness
+DONE_LIKELIHOOD = 0.3 
 
 def chaotic_counting():
-    for i in range(1, 11):  # count from 1 to 10
+    for i in range(1, 11):  
         if done():
-            return  # stop counting if done() says we're done
+            return  
         print(i)
 
 def done():
-    """ Returns True with a probability of DONE_LIKELIHOOD """
+   
     return random.random() < DONE_LIKELIHOOD
 
 def main():

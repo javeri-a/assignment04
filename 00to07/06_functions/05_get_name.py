@@ -1,6 +1,6 @@
 def get_name():
     name = input("What's your name? ")
-    return name  # Returns the name the user types in
+    return name 
 
 def main():
     name = get_name()
